@@ -12,9 +12,9 @@ public class CalcTest{
         assertEquals(15,Calc.add(5,10));
 
     }
-
+    @Test
     public void subtracttest() {
-       Calc.subtract(5,7);
+       assertEquals(2,Calc.subtract(5,4));
 
     }
 }
